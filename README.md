@@ -25,7 +25,7 @@ and performs **Bayesian inference (Stan/CmdStanPy)** to estimate edge probabilit
   - `model.stan` — NIIFM Bayesian model / NIIFM 的 Stan 模型文件
 - `scripts/`  
   - `run_experiment.py` — one-command pipeline / 一键运行全流程脚本
-- `outputs/` — generated results / 运行产生的输出结果（通常由 `.gitignore` 忽略）
+- `outputs/` — generated results / 运行产生的输出结果
 
 ---
 
@@ -38,9 +38,9 @@ and performs **Bayesian inference (Stan/CmdStanPy)** to estimate edge probabilit
 
 ## Quick Start (One Command) / 一键快速开始
  Run a full experiment on a BA network
- 在 BA 网络上运行一次完整实验：
+ 在 ER 网络上运行一次完整实验：
 python -m scripts.run_experiment \
-  --graph BA --n 100 --k 10 \
+  --graph ER --n 100 --k 10 \
   --beta 0.1 --mu 1 --rho0 0.2 --T 10000 \
   --w 10000 \
   --thr 0.5
