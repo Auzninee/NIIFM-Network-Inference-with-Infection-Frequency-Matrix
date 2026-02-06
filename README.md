@@ -37,7 +37,7 @@ and performs **Bayesian inference (Stan/CmdStanPy)** to estimate edge probabilit
 - `cmdstanpy` + CmdStan installed
 
 ## Quick Start (One Command) / 一键快速开始
- Run a full experiment on a BA network:
+ Run a full experiment on a BA network
  在 BA 网络上运行一次完整实验：
 python -m scripts.run_experiment \
   --graph BA --n 100 --k 10 \
