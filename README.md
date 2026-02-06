@@ -32,7 +32,7 @@ and performs **Bayesian inference (Stan/CmdStanPy)** to estimate edge probabilit
 ## Requirements / 环境依赖
 
 
-- Python 3.10+ (recommended)
+- Python 3.12.8 (recommended)
 - `numpy`, `networkx`
 - `cmdstanpy` + CmdStan installed
 
