@@ -10,6 +10,8 @@ __pycache__/
 .DS_Store
 
 # CmdStan compiled binaries
+# CmdStan compiled binaries (keep stan/model.stan tracked!)
 stan/model
-stan/model.*
-EOF
+stan/model.hpp
+stan/model.o
+stan/model.dSYM/
