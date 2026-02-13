@@ -193,8 +193,8 @@ def load_txt_matrix(file_path):
 # 主函数
 def main():
     # 文件路径
-    true_matrix_path = "/Users/jinxin/Documents/NewSIS2/ADfootball.txt"
-    pred_matrix_path = "/Users/jinxin/Documents/NewSIS2/foot10.txt"
+    true_matrix_path = ""
+    pred_matrix_path = ""
     
     try:
         # 加载真实矩阵和预测矩阵
